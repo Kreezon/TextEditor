@@ -42,26 +42,34 @@ python main.py notes.txt
 
 ⌨️ Keybindings
 NORMAL Mode
-Key	Action
-i	Enter INSERT mode
-x	Delete character under cursor
-:	Enter COMMAND mode
-q	Quit (press twice if unsaved changes)
-Arrow keys / h j k l	Move cursor
-INSERT Mode
-Key	Action
-ESC	Return to NORMAL mode
-ENTER	Insert a new line
-Backspace	Delete character
-COMMAND Mode (:)
-Command	Action
-:w	Save file
-:q	Quit if no unsaved changes
-:q!	Force quit without saving
-:wq	Save & quit
-⚠️ Common Errors & Fixes
-❌ ModuleNotFoundError: No module named '_curses'
 
+i — Enter INSERT mode
+
+x — Delete character under cursor
+
+: — Enter COMMAND mode
+
+q — Quit (press twice if unsaved changes)
+
+Arrow keys / h j k l — Move cursor
+
+INSERT Mode
+
+ESC — Return to NORMAL mode
+
+ENTER — Insert a new line
+
+Backspace — Delete character
+
+COMMAND Mode (:)
+
+:w — Save file
+
+:q — Quit if no unsaved changes
+
+:q! — Force quit without saving
+
+:wq — Save & quit
 This happens on Windows.
 ✔️ Fix:
 
@@ -78,3 +86,4 @@ Undo/redo system
 Search (/) functionality
 
 File explorer sidebar
+
